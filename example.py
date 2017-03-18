@@ -12,4 +12,3 @@ ant_colony = AntColony(distances, 1, 1, 100, 0.95, alpha=1, beta=1)
 shortest_path = ant_colony.run()
 print "shorted_path: {}".format(shortest_path)
 
-# ([(0, 2), (2, 3), (3, 4), (4, 1), (1, 0)], 16.0)
