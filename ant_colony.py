@@ -16,8 +16,7 @@ class AntColony(object):
             beta (int or float): exponent on distance, higher beta give distance more weight. Default=1
 
         Example:
-            ant_colony = AntColony(german_distances, 100, 20, 2000, 0.95, alpha=1, beta=2)
-    s           
+            ant_colony = AntColony(german_distances, 100, 20, 2000, 0.95, alpha=1, beta=2)          
         """
         self.distances  = distances
         self.pheromone = np.ones(self.distances.shape) / len(distances)
